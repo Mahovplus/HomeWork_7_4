@@ -10,7 +10,7 @@ team1_time = 1552.512
 print("Волшебники данных решили задачи за {}c!".format(team1_time))
 team2_time = 2153.31451
 tasks_total = 82
-print(f"Команды решили {score_1} и {score_2} задач.")
+print(f"Команды решили {score_1 + score_2} задач.")
 time_avg = 45.2
 print(f"Сегодня было решено {tasks_total} задач, в среднем по {time_avg} секунды на задачу!")
 challenge_result = 'Победа команды Волшебники данных!'
